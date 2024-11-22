@@ -9,7 +9,7 @@ translation_dict = getattr(module, 'translation_dict')
 
 script_path = os.path.dirname(os.path.abspath(__file__))
 
-BASE_PATH = f'{BASE_FOLDER}zed-src/'
+BASE_PATH = f'{BASE_FOLDER}zed/'
 os.chdir(BASE_PATH)
 
 TRANSLATOR_LABEL = translation_dict['translator']
