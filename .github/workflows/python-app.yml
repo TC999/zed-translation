@@ -37,7 +37,7 @@ jobs:
       with:
         repository: zed-industries/zed
         ref: main
-        path: /home/runner/zed/zed-trans/zed
+        path: /home/runner/work/zed/zed-trans/zed
     - name: 汉化
       run: |
         python3 2.trans.py
@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: zed-src
-        path: /home/runner/zed/zed-trans/
+        path: /home/runner/work/zed/zed-trans/
