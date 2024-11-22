@@ -20,6 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - run: sudo apt-get install rename -y
     - name: 设置 Python 3.10
       uses: actions/setup-python@v3
       with:
