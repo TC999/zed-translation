@@ -30,7 +30,7 @@ jobs:
         pip install -r requirements.txt
     - name: 拉取 zed 源代码
       run:
-        cd zed/zed-trans && git clone https://github.com/zed-industries/zed.git && rename zed zed-src
+         mkdir zed/zed-trans && cd zed/zed-trans && git clone https://github.com/zed-industries/zed.git && rename zed zed-src
     - name: 汉化
       run: |
         python3 2.trans.py
