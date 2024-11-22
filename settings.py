@@ -15,11 +15,11 @@ DEBUG = False
 if platform.system() == 'Linux':
     # BASE_PATH 是工作目录
     # BASE_PATH is the working directory
-    BASE_FOLDER = '/home/nate/soft/zed/zed-trans/'
+    BASE_FOLDER = '/home/%user%/soft/zed/zed-trans/'
 
     # TRANS_RELEASE_FOLDER 是翻译好的客户端发布的路径
     # TRANS_RELEASE_FOLDER is the release directory for translated clients
-    TRANS_RELEASE_FOLDER = '/home/nate/soft/zed/zed-trans-release/'
+    TRANS_RELEASE_FOLDER = '/home/%user%/soft/zed/zed-trans-release/'
 else:
     # MacOS
     BASE_FOLDER = '/Users/nate/soft/zed/zed-trans/'
@@ -32,7 +32,7 @@ LANG = 'cn'
 # 翻译者信息, 会在关于页面显示
 # translator info, will be in about page
 TRANSLATOR = 'Nriver'
-TRANSLATOR_URL = 'https://github.com/Nriver/zed-translation'
+TRANSLATOR_URL = 'https://github.com/TC999/zed-translation'
 
 # 连不到GitHub需要设置代理 USE_PROXY=False 不会用代理
 # Change following proxy setting if you need proxy to connect to GitHub. set USE_PROXY=False can ignore it.
