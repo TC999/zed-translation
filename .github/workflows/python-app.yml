@@ -35,7 +35,9 @@ jobs:
       continue-on-error: true
     - name: 手动拉取 zed 源代码
       run:
-         cd zed/zed-trans && git clone https://github.com/zed-industries/zed.git && rename zed zed-src
+         cd zed/zed-trans && git clone https://github.com/zed-industries/zed.git
+    - name: 重命名
+      run: cd zed/zed-trans && rename zed zed-src
     - name: 汉化
       run: |
         python3 2.trans.py
