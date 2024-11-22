@@ -20,7 +20,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - run: sudo apt-get install rename -y
     - name: 设置 Python 3.10
       uses: actions/setup-python@v3
       with:
@@ -36,8 +35,6 @@ jobs:
     - name: 手动拉取 zed 源代码
       run:
          cd zed/zed-trans && git clone https://github.com/zed-industries/zed.git
-    - name: 重命名
-      run: cd zed/zed-trans && rename zed zed-src
     - name: 汉化
       run: |
         python3 2.trans.py
