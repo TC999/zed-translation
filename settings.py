@@ -15,11 +15,11 @@ DEBUG = False
 if platform.system() == 'Linux':
     # BASE_PATH 是工作目录
     # BASE_PATH is the working directory
-    BASE_FOLDER = '/home/runner/work/zed/zed-trans/'
+    BASE_FOLDER = '/home/runner/work/zed-translation/zed-translation/'
 
     # TRANS_RELEASE_FOLDER 是翻译好的客户端发布的路径
     # TRANS_RELEASE_FOLDER is the release directory for translated clients
-    TRANS_RELEASE_FOLDER = 'home/runner/work/zed/zed-trans-release/'
+    TRANS_RELEASE_FOLDER = 'home/runner/work/zed-translation/zed-translation/zed/zed-trans-release/'
 else:
     # MacOS
     BASE_FOLDER = '/Users/nate/soft/zed/zed-trans/'
