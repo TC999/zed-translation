@@ -37,7 +37,7 @@ jobs:
       with:
         repository: zed-industries/zed
         ref: main
-        path: zed/zed-trans
+        path: zed/zed-trans/zed
     - name: 汉化
       run: |
         python3 2.trans.py
