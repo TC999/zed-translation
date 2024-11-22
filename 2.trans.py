@@ -639,7 +639,7 @@ translation = [
 ]
 replace_in_file(file_path, translation)
 
-file_path = 'crates/collab_ui/src/collab_titlebar_item.rs'
+file_path = 'crates/title_bar/src/application_menu.rs'
 translation = [
     'Tooltip::text("{{Leave call}}"',
     'Tooltip::text("{{Cannot share microphone}}"',
