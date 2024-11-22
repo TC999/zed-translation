@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: zed-src
-        path: /home/%user%/soft/zed/zed-trans/
+        path: /home/runner/soft/zed/zed-trans/
