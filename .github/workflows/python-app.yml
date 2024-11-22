@@ -32,6 +32,7 @@ jobs:
       run: |
         python3 1.init.py
         python3 2.trans.py
+      continue-on-error: true
     - name: 上传源码
       uses: actions/upload-artifact@v4
       with:
